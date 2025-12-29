@@ -17,7 +17,7 @@ document.getElementById("contactForm").addEventListener("submit", function (e) {
   e.preventDefault();
 
   if (!name.value || !email.value || !message.value) {
-    alert("Please fill in all fields");
+    alert("Message sent successfully!2");
     return;
   }
 
@@ -47,3 +47,4 @@ function typeText() {
 }
 
 window.addEventListener("load", typeText);
+
