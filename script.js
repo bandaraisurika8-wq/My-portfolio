@@ -17,11 +17,11 @@ document.getElementById("contactForm").addEventListener("submit", function (e) {
   e.preventDefault();
 
   if (!name.value || !email.value || !message.value) {
-    alert("Message sent successfully!2");
+    alert("Message sent successfully!");
     return;
   }
 
-  alert("Message sent successfully!");
+  alert("Please fill in all fields");
   this.reset();
 });
 
