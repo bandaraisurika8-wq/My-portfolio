@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+ 
+  <title>Individual Project - Portfolio</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Icons -->
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+<!--  VIDEO BACKGROUND -->
+<video class="video-bg" autoplay muted loop playsinline>
+  <source src="videos/background.mp4" type="video/mp4">
+</video>
+<div class="video-overlay"></div>
+
+
+<!-- ABOUT -->
+<section class="about fade">
+  <div class="about-container">
+
+    <img src="images/profile.jpg" alt="Profile Picture">
+
+    <div class="about-text">
+      <h1 class="gradient-text reveal">About Me</h1>
+      <h3 class="typing-text"></h3>
+
+      <p class="reveal delay">
+        Hello, I’m <b>Isurika Bandara</b>, a Computer Science student with a genuine
+        interest in web development. I enjoy building responsive and user-friendly websites,
+        and I’m always keen to improve my skills by learning and experimenting with new ideas.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section class="skills fade">
+  <h2>My Skills</h2>
+
+  <ul class="skills-list">
+    <li>
+      <strong>Frontend</strong>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>React.js</li>
+      </ul>
+    </li>
+
+    <li>
+      <strong>Backend</strong>
+      <ul>
+        <li>Node.js</li>
+        <li>MySQL</li>
+      </ul>
+    </li>
+
+    <li>
+      <strong>Tools</strong>
+      <ul>
+        <li>VS Code</li>
+        <li>Jupyter Notebook</li>
+      </ul>
+    </li>
+  </ul>
+</section>
+
+<!-- PROJECTS -->
+<section class="projects fade">
+  <h2 class="project-title">Projects</h2>
+
+  <div class="project-box">
+    <img src="images/project1.jpg" alt="Project 1">
+    <div class="caption">Personal Portfolio Website</div>
+    <div class="description">
+      A personal site to show skills, education and projects using HTML, CSS and JavaScript.
+    </div>
+  </div>
+
+  <div class="project-box">
+    <img src="images/project2.jpg" alt="Project 2">
+    <div class="caption">Login & Registration Form</div>
+    <div class="description">
+      A basic user login and signup system with form validations.
+    </div>
+  </div>
+
+  <div class="project-box">
+    <img src="images/project3.jpg" alt="Project 3">
+    <div class="caption">Online Quiz App</div>
+    <div class="description">
+      A quiz application with score tracking and answer validation.
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact fade">
+  <h2>Contact Me</h2>
+
+  <div class="contact-icons">
+    <a href="mailto:Isurikabandara@gmail.com"><i class="fas fa-envelope"></i></a>
+    <a href="tel:077313819"><i class="fas fa-phone"></i></a>
+    <a href="https://instagram.com/ishubanda" target="_blank">
+      <i class="fab fa-instagram"></i>
+    </a>
+  </div>
+
+  <form id="contactForm">
+    <input type="text" id="name" placeholder="Full Name">
+    <input type="email" id="email" placeholder="Email">
+    <textarea id="message" placeholder="Your Message"></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
